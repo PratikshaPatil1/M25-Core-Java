@@ -45,7 +45,7 @@ public abstract class BankAcc {
 	
 	//abstract method
 		abstract public void withdraw(float accBal);
-		public void deposite(float accBal )
+	    public void deposite(float accBal )
 		{
 			System.out.println(accBal);
 	    	 
