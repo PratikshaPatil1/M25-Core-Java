@@ -13,11 +13,6 @@ public abstract class SavingAcc extends BankAcc{
 	{
 		System.out.println("Account NO:"+this.getAccNo()+","+"Account Name:"+this.getAccNm()
 		+","+"Account Balance is: "+this.getAccBal());
-	}
-	public void deposite(Float accBal)
-	{
-		System.out.println("Account NO:"+this.getAccNo()+","+"Account Name:"+this.getAccNm()
-		+","+"Account Balance is: "+this.getAccBal());
 
 	}
 	@Override

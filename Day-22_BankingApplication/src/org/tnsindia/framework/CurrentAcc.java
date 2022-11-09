@@ -13,11 +13,6 @@ public abstract class CurrentAcc extends BankAcc{
 	        System.out.println("Account NO:"+this.getAccNo()+","+"Account Name:"+this.getAccNm()
 	        +","+"Account Balance is: "+(accBal+creditLimit));
 	}
-	public void deposite(Float accBal)
-	{
-		System.out.println("Account NO:"+this.getAccNo()+","+"Account Name:"+this.getAccNm()
-		+","+"Account Balance is: "+this.getAccBal());
-	}
 
 	@Override
 	public String toString() {
